@@ -1,0 +1,16 @@
+
+# intellij
+.idea
+
+# venv
+ig_venv
+
+# bin
+**/*.pyc
+
+# fruit debris:
+**/.DS_Store
+
+# paypal exports their extensions in all caps, just ensuring these never are commited
+**/*.CSV
+**/*.PDF
