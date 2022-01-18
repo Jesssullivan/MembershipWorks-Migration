@@ -1,7 +1,7 @@
 
 # intellij
 .idea
-
+**.ipynb_checkpoint*
 # venv
 ig_venv
 
