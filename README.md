@@ -23,9 +23,13 @@ pip3 install -r requirements.txt
 
 ```
 # do the rest in jupyter notebook:
-cp financial_vis.void financial_vis.ipynb
 jupyter lab # ...
+
+# when you are done, write out a pdf, sumth like:
+jupyter nbconvert --to PDF financial_vis.ipynb
 ```
+
+(note, you'll need [nbconvert, pandoc, TeX to write to pdf](https://nbconvert.readthedocs.io/en/latest/))
 
 
 #### *...If all goes well, the output will look something like:*
@@ -39,11 +43,10 @@ discarded **'s PreApproved Payment Bill User Payment record for **, continuing..
 ** ** already in member list! continuing...
 discarded ** **'s Payment Refund record for -**.00, continuing...
 discarded ** **'s Donation Payment record for **.00, continuing...
-exported: ** Members! 
- - ** Standard Members 
- - ** Offline Standard Members 
- - ** Extra Members 
- - ** Offline Extra Members 
+exported: ** Members!
+ - ** Standard Members
+ - ** Offline Standard Members
+ - ** Extra Members
+ - ** Offline Extra Members
  ...to a membershipworks-readable format at ./csv/membershipworks_import.csv
 ```
-
