@@ -1,13 +1,13 @@
-
 # intellij
 .idea
-
+**.ipynb_checkpoint*
 # venv
 ig_venv
 
 # bin
 **/*.pyc
 **/__pycache__/
+**/*.png
 
 # fruit debris:
 **/.DS_Store
@@ -15,3 +15,5 @@ ig_venv
 # paypal exports their extensions in all caps, just ensuring these never are commited
 **/*.CSV
 **/*.PDF
+**/*.csv
+**/*.pdf
